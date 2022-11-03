@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "removeComments": true,
+    "noLib": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+//    "moduleResolution": "node",
+//    "useUnknownInCatchVariables": true,
+    "target": "ES2017",
+//    "types": [
+//      "node",
+//      "jest",
+//      "mocha"
+//    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "lib": [
+      "es6",
+      "es7",
+      "es2017",
+      "ES2020",
+      "DOM"
+    ],
+    "baseUrl": "./",
+//    "paths": {
+//      "@/*": [
+//        "src/*"
+//      ],
+//      "@Common/*": [
+//        "src/common/*"
+//      ],
+//      "@DB/*": [
+//        "src/db/*"
+//      ],
+//      "@Modules/*": [
+//        "src/modules/*"
+//      ],
+//    }
+  },
+  "include": [
+    "typescript/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
